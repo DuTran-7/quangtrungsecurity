@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "quangtrungsecurity-65ff8": {
+      "hosting": {
+        "forms": [
+          "quangtrungsecurity-65ff8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "quangtrungsecurity-65ff8"
+  }
+}
