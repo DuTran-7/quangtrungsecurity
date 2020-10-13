@@ -1,0 +1,25 @@
+<div class="section section-navbars">
+  <div class="container" id="menu-dropdown">
+    <div class="tim-title">
+      <h3>TẠI SAO LẠI SỬ DỤNG DỊCH VỤ BẢO VỆ QUANG TRUNG</h3>
+    </div>
+    <div class="row">
+      <div class="typography-line">
+        <blockquote class="blockquote">
+          <div nz-row nzJustify="space-between">
+            <div nz-col nzSpan="24">
+              <nz-collapse>
+                <nz-collapse-panel *ngFor="let panel of panels" [nzHeader]="panel.name" [nzActive]="panel.active"
+                  [nzDisabled]="panel.disabled" [ngStyle]="panel.customStyle" [nzExpandedIcon]="'double-right'">
+                  <p style="margin:0;">
+                    {{ panel.des }}
+                  </p>
+                </nz-collapse-panel>
+              </nz-collapse>
+            </div>
+          </div>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
