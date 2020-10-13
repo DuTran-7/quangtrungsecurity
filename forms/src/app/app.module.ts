@@ -13,7 +13,6 @@ import { ComponentsModule } from './components/components.module';
 import { ExamplesModule } from './examples/examples.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatCardModule} from '@angular/material/card';
 import { NgZoroAntDesignModule } from './ng-zoro-ant-design.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
@@ -39,7 +38,6 @@ registerLocaleData(en);
     ExamplesModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule,
     NgZoroAntDesignModule,
     HttpClientModule
   ],
